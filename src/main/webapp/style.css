@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+body{
+	background-color: skyblue;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: rgb(0, 128, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 128, 0);
+}
+
+/* Section styling */
+.weather-summary,.hourly-weather {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 7px solid #ccc;
+    border-radius: 5px;
+}
+
+.hourly-weather {
+   top: 20%;
+    padding: 25px;
+}
+
